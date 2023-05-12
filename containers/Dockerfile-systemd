@@ -1,0 +1,6 @@
+FROM ghcr.io/gbraad-devenv/ubuntu/dotfiles:jammy
+
+USER root
+
+ENTRYPOINT ["/sbin/init"]
+CMD ["/sbin/init"]
