@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 ghcr.io/gbraad-devenv/ubuntu/base:jammy
+FROM --platform=linux/amd64 ghcr.io/gbraad-devenv/ubuntu/rebase:noble
 
 USER root
 
